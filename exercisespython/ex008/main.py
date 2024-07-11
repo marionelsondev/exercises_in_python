@@ -1,0 +1,2 @@
+valor_metros = float(input('Digite uma distância em metros:\n'))
+print(f'A medida de {valor_metros:.2f}m corresponde a:\nQuilômetro: {valor_metros/1000:.2f}km\nHectômetro: {valor_metros/100:.2f}hm\nDecâmetro: {valor_metros/10:.2f}dam\nDecímetro: {valor_metros*10:.2f}dm\nCentímetro: {valor_metros*100:.2f}cm\nMilímetro: {valor_metros*1000:.2f}mm')
