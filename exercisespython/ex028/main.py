@@ -1,9 +1,15 @@
-import random
+from random import randint
+from time import sleep
 
-num_comp = random.randint(0, 5)
-num_user = int(input('Adivinhe o número entre 0 a 5:\n'))
+num_comp = randint(0, 5)
+print('-'*54)
+print('Vou pensar em um número entre 0 e 5. Tente advinhar...')
+print('-'*54)
+num_usuario = int(input('Em que número eu pensei?\n'))
+print('PROCESSANDO...')
+sleep(2)
 
-if num_user == num_comp:
-    print('Parabéns, você adivinhou o número!')
+if num_usuario== num_comp:
+    print('Parabéns! Você venceu!')
 else:
-    print('Não foi dessa vez :(')
+    print(f'Você perdeu. O número pensado foi {num_comp}, você digitou {num_usuario}.')
