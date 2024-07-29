@@ -1,4 +1,4 @@
-print('{:-^40}'.format(' ENKELT STORE '))
+print("{:-^40"'.format(' ENKELT STORE '))
 preco = float(input("Digite o preço da compra: \033[0;32mR$\033[m"))
 cond_pag = int(input('''FORMAS DE PAGAMENTO
 [1] À vista dinheiro/cheque
