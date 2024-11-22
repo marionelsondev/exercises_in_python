@@ -16,6 +16,5 @@ def fatorial(n, show=False):
                 print(' = ', end='')
     return f
 
-
 print(fatorial(8, False))
 print(fatorial(24, True))
