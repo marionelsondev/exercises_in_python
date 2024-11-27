@@ -40,7 +40,7 @@ while True:
     if qdados == 999:
         break
     if qdados >= len(time):
-        print('ERRO! Não existe jogador com o código {qdados}!')
+        print(F'ERRO! Não existe jogador com o código {qdados}!')
     else:
         print(f' -- LEVANTAMENTO DO JOGADOR {time[qdados]['nome']}:')
 
